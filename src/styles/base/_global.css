@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  /* font-size: 62.5%; */
+  font-size: 1rem;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 5em;
+  font-size: .9em;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 100;
+  
+  /* ★ How to use colors in the project */
+  color: var(--brand-red-dark);
+  background-color: var(--brand-red);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: normal;
+  font-family: "Noto Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none !important;
+}
